@@ -1,0 +1,137 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: fill;
+    position: relative;
+    
+}
+
+/* The Heading Section */
+.heading{
+    width: 80%;
+    margin: auto;
+}
+
+.heading-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* The Passenger number and buttons */
+.content{
+    width: 80%;
+    margin: auto;
+}
+.number-of-passenger{
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+/* Button One - Increment button */
+
+.buttons{
+    width: 80%;
+    margin: auto;
+}
+
+.button-one{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.btn-1{
+    border: 1px solid #00B4D8;
+    border-radius: 5px;
+    padding: 15px 40px;
+    background: #00B4D8;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background: transparent;
+}
+
+/* Button Two - Save button */
+
+.button-two{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+.btn-2{
+    padding: 15px 60px;
+    background: chocolate;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    background: transparent;
+}
+
+/* Button Three - Reset Button */
+.btn-3{
+    padding: 15px 60px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-3:hover{
+    background: transparent;
+}
+
+/* Button 4 - The decrement button */
+.btn-4{
+    padding: 15px 40px;
+    background: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-4:hover{
+    background: transparent;
+}
+
+/* Previous Entries Text */
+.text{
+    text-align: center;
+    color: darkgray;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:700px){
+    .heading-title{
+        font-size: 18px;
+    }
+}
